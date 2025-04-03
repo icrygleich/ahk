@@ -11,4 +11,5 @@ b & c::MsgBox hi
 #if getkeystate("a", "P")
 
 
-s & d::f
+s & d::a
+#If

@@ -1,9 +1,18 @@
 #SingleInstance, Force
+
 f5::Reload
+/*
+:*:gks::getkeystate("", "P")
+ & :: 
+*/
+ 
 
-
-f9::mute
 :*:ix::icrygleich
 :*:igm::icrygleich@gmail.com
 :*:lcsde::lcsnoe.de
 return
+
+#If getkeystate("lmb","P")
+while GetKeyState("lmb","P")
+i::p
+    
